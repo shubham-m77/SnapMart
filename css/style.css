@@ -1,0 +1,19 @@
+@charset "UTF-8";
+*{font-family:poppins;}
+body{margin:0;padding:0;background:url("../images/17973908.jpg");background-size: cover;background-repeat: no-repeat;}
+.signup_form,.act_form,.login_form{background-color:#75beef;box-shadow:0 5px 10px #ccc;}
+*:focus{box-shadow:none !important;}
+.pass-con{position: relative;}
+.email-con,.ver_con,.login_email_con,.login_pass_con{position: relative;}
+.show-icon,.login_show-icon,.login_hide-icon{position: absolute;top:43px;right:20px;cursor: pointer;font-size: 18px;}
+.hide-icon{position: absolute;top:43px;right:20px;cursor: pointer;font-size: 18px;}
+.email-load,.login_email-load{position: absolute;top:41px;right:20px;font-size: 20px;}
+.email_checker,.login_email_checker{position: absolute;top:39px;right:19px;}
+.x-mark{font-size: 24px;color:red;}
+.check-mark{font-size: 24px;color:green;}
+.login-text a{border:none;cursor: pointer;text-decoration:none; background-color: #cff4fc;}
+.login-text a:hover{background-color:#89cfdd;}
+#login{cursor: pointer;}
+.login_nav{background-color: #6a99f7;}
+.login_nav:hover{background-color: #42609c;transition: linear 0.2s;}
+#login:hover{color:#d6d6ff;transition: linear 0.2s;}
